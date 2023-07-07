@@ -21,4 +21,4 @@ For the 1st model : Log Sale Price = 𝜃0 + 𝜃1 ⋅ (Bedrooms)
 For the 2nd model, Log Sale Price = 𝜃0 + 𝜃1 ⋅ (Bedrooms) + 𝜃2 ⋅ (Log Building Square Feet)
 We found that the 2nd model 𝜃1 changes from positive to negative with the additional feature. 
 
-As an addition to this project, we also created another model with arbitrary numbers of features and transformations in order to find the lowest RMSE scoring model. 
+After comparing the performance of the two models, I trained numbers of different model with arbitrary features and transformations in order to find the lowest RMSE scoring model. 
