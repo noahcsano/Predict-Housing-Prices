@@ -12,7 +12,7 @@ The data are split into training and test sets with 204,792 and 68,264 observati
 I first performed Exploratory Data Analysis, Feature Engineering, and seaborn/matplotlib visualizations to draw out the relationship between the provided features.(Ex: scatterplot, KDE Plot, jointplot, violinplot, etc.) Some variables required a log transformation of data in order to build a linear relationship with sales price. 
 
 After choosing my features to train the model, I set up a sklearn.linear_model.LinearRegression model. 
-I then fit the linear regression model and used it to compute the fitted values of Log Sale Price over the training data, and the predicted values of Log Sale Price for the validation data.
+I then fit the linear regression model and used it to compute the fitted values of Log Sale Price over the training data, and the predicted values of Log Sale Price for the validation data. I trained two separate modles with different features to compare the performance.
 
 In order to measure the performance of the two models, I used root mean square to calculate the training error and validation error for both models. Since our model predicts Log Sale Price, I compute RMSE between the predicted and observed Log Sale Price.
 
